@@ -1,0 +1,110 @@
+/* Общий стиль */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+/* Шапка */
+header {
+    text-align: center;
+    background: #4b7bec;
+    color: white;
+    padding: 30px 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+/* Контейнер */
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    padding: 20px;
+}
+
+/* Карточки */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+/* Примеры блоков */
+.ex {
+    width: 260px;
+    height: 100px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* Примеры */
+.ex-bg {
+    background: #ff9f43;
+    color: white;
+    padding: 10px;
+}
+
+.ex-solid {
+    border: 3px solid red;
+}
+
+.ex-dotted {
+    border: 2px dotted black;
+}
+
+.ex-dashed {
+    border: 2px dashed #222;
+}
+
+.ex-double {
+    border: 5px double #333;
+}
+
+.ex-radius {
+    border: 2px solid #4b7bec;
+    border-radius: 20px;
+}
+
+.ex-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #20bf6b;
+    margin: 0 auto;
+}
+
+/* Списки */
+.list-square {
+    list-style-type: square;
+}
+
+.list-roman {
+    list-style-type: upper-roman;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #555;
+    margin-top: 40px;
+}
